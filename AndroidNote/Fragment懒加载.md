@@ -31,10 +31,10 @@ Behavior有两个值：
 if (fragment != mCurrentPrimaryItem) {
 	fragment.setMenuVisibility(false);
     if (mBehavior == BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
-    	mCurTransaction.setMaxLifecycle(fragment, Lifecycle.State.STARTED);
-     } else {
+        mCurTransaction.setMaxLifecycle(fragment, Lifecycle.State.STARTED);
+    } else {
         fragment.setUserVisibleHint(false);
-     }
+    }
 }
 ```
 
