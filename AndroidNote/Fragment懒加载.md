@@ -29,7 +29,7 @@ Behavior有两个值：
 
 ```java
 if (fragment != mCurrentPrimaryItem) {
-	fragment.setMenuVisibility(false);
+    fragment.setMenuVisibility(false);
     if (mBehavior == BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
         mCurTransaction.setMaxLifecycle(fragment, Lifecycle.State.STARTED);
     } else {
