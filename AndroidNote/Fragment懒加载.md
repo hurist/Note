@@ -40,7 +40,7 @@ if (fragment != mCurrentPrimaryItem) {
 
 
 
-​	在切换fragment调用setPrimaryItem函数时，将上次显示的fragment设置为STARTED，将本次显示的fragment设置为RESUMED
+​	在切换fragment时，调用setPrimaryItem函数，将上次显示的fragment设置为STARTED，将本次显示的fragment设置为RESUMED
 
 ​	源码如下：
 
